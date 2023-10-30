@@ -49,4 +49,4 @@ rm -rf device/aosp/sepolicy
 git clone https://github.com/crdroidandroid/android_device_crdroid_sepolicy device/aosp/sepolicy
 
 rm -rf packages/apps/Nfc
-git clone https://github.com/CherishOS/android_packages_apps_Nfc.git packages/apps/Nfc
+git clone https://github.com/bananadroid/android_packages_apps_Nfc.git -b 14 packages/apps/Nfc
