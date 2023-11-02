@@ -46,7 +46,3 @@ echo 'Cloning Sepolicy Dependency repo [7/7]'
 # Sepolicy
 rm -rf device/aosp/sepolicy
 git clone https://github.com/crdroidandroid/android_device_crdroid_sepolicy device/aosp/sepolicy
-echo 'Cloning Sepolicy Dependency repo [7/7]'
-# Sepolicy
-rm -rf device/aosp/sepolicy
-git clone https://github.com/crdroidandroid/android_device_crdroid_sepolicy device/aosp/sepolicy
