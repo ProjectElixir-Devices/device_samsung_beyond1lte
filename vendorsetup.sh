@@ -46,3 +46,7 @@ echo 'Cloning Sepolicy Dependency repo [7/7]'
 # Sepolicy
 rm -rf device/aosp/sepolicy
 git clone https://github.com/crdroidandroid/android_device_crdroid_sepolicy device/aosp/sepolicy
+
+# NFC
+rm -rf packages/apps/Nfc
+git clone https://github.com/crdroidandroid/android_packages_apps_Nfc.git -b 13.0 packages/apps/Nfc
