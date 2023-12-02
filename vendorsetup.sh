@@ -27,13 +27,13 @@ echo 'Cloning Hardware Samsung [5/7]'
 # Hardware OSS parts for Samsung
 mv hardware/samsung/nfc .
 rm -rf hardware/samsung
-git clone https://github.com/ElixirOS-982x/hardware_samsung -b evo hardware/samsung
+git clone https://github.com/BananaDroid-exynos9820/android_hardware_samsung -b evo hardware/samsung
 mv nfc hardware/samsung
 
 echo 'Cloning Samsung_Slsi and Linaro BSP repos [6/7]'
 # SLSI Sepolicy
 rm -rf device/samsung_slsi/sepolicy
-git clone https://github.com/ElixirOS-982x/android_device_samsung_slsi_sepolicy -b lineage-21.0 device/samsung_slsi/sepolicy
+git clone https://github.com/BananaDroid-exynos9820/android_device_samsung_slsi_sepolicy -b lineage-21.0 device/samsung_slsi/sepolicy
 # Linaro BSP
 rm -rf hardware/samsung_slsi-linaro
 git clone https://github.com/BananaDroid-exynos9820/android_hardware_samsung_slsi-linaro_graphics.git hardware/samsung_slsi-linaro/graphics
@@ -49,4 +49,4 @@ rm -rf device/aosp/sepolicy
 git clone https://github.com/crdroidandroid/android_device_crdroid_sepolicy device/aosp/sepolicy
 
 rm -rf packages/apps/Nfc
-git clone https://github.com/bananadroid/android_packages_apps_Nfc.git -b 14 packages/apps/Nfc
+git clone https://github.com/Evolution-X/packages_apps_Nfc.git packages/apps/Nfc
