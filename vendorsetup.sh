@@ -27,7 +27,7 @@ echo 'Cloning Hardware Samsung [5/7]'
 # Hardware OSS parts for Samsung
 mv hardware/samsung/nfc .
 rm -rf hardware/samsung
-git clone https://github.com/BananaDroid-exynos9820/android_hardware_samsung -b evo hardware/samsung
+git clone https://github.com/BananaDroid-exynos9820/android_hardware_samsung hardware/samsung
 mv nfc hardware/samsung
 
 echo 'Cloning Samsung_Slsi and Linaro BSP repos [6/7]'
